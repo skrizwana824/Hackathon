@@ -1,0 +1,12 @@
+#dice{
+    border:1px solid black;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#inputnum{
+    margin-bottom: 30px;
+}
