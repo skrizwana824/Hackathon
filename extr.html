@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex_tr</title>
+    <link rel="stylesheet" href="extr.css">
+    </head>
+<body>
+        <div id="details">
+            <h1>Expense Details</h1><br>
+            <div id="border">
+                <div id="space">
+                <label>Amount:</label>
+        <input id="amountin" type="text" placeholder="amount"><br><br>
+        <label>category:</label>
+        <input type="text" id="categ"  placeholder="category"><br><br>
+        <label>Date:</label>
+        <input type="date" id="date" placeholder="date"><br><br>
+        <button onclick="Expenses.addNewexpense(Expense.amountinput.value)">ADD</button>
+        </div></div>
+          <table id="tf">
+
+          </table>
+        </div>
+        <script src="extr.js"></script>
+</body>
+</html>
